@@ -1,7 +1,7 @@
 import unittest
 from PerformanceRating import PerformanceRating
 
-class PerformanceRating(unittest.TestCase):
+class TestPerformanceRating(unittest.TestCase):
 
     # Equivalence Classes:
     # EC1: time < 0
