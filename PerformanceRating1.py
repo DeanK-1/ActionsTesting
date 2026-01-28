@@ -1,4 +1,4 @@
-class PerformanceRating:
+class PerformanceRating1:
     def rate(self, time, professional):
         
         if time < 0 or time > 60:
