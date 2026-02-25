@@ -21,7 +21,7 @@ class TestPerformanceRating(unittest.TestCase):
 
     # EC4: 20 <= time <= 60 
     def test_t4(self):
-        pr = PerformanceRating()
+        pr = PerformanceRating1()
         self.assertEqual(pr.rate(30, False), 20)
 
     # EC5: time > 60
